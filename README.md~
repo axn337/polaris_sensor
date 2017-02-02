@@ -14,9 +14,4 @@ tty
 
 dialout
 
-# Please run:
-'sudo usermod -G <group> <account name>' 
-# for the above three groups
-
-# To run the node for mutiple rom files:
-'rosrun polaris_sensor polaris_sensor_node _roms:="$(rospack find polaris_sensor)/rom/kuka.rom,$(rospack find polaris_sensor)/rom/T0.rom" _port:=/dev/ttyUSB0'
+Please run 'sudo usermod -G <group> <account name>' for the above three groups
