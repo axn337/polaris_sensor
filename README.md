@@ -1,6 +1,6 @@
 # Polaris_indigo
 
-# Need Serial: https://github.com/RANHAOHR/serial_indigo.git
+# Need Serial: https://github.com/RANHAOHR/serial.git
 
 If you plan to access the Polaris Vicra from a non-root user account, you will need to add the
 
