@@ -15,7 +15,7 @@ tty
 dialout
 
 # Please run:
-'sudo usermod -G <group> <account name>' 
+'sudo usermod -G group_name account_name' 
 # for the above three groups
 
 # To run the node for mutiple rom files:
