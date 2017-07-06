@@ -25,7 +25,7 @@ dialout
 'sudo usermod -G group_name account_name' for the above three groups
 
 # To run the node for mutiple rom files:
-'rosrun polaris_sensor polaris_sensor_node _roms:="$(rospack find polaris_sensor)/rom/kuka.rom,$(rospack find polaris_sensor)/rom/T0.rom" _port:=/dev/ttyUSB0'
+'''rosrun polaris_sensor polaris_sensor_node _roms:="$(rospack find polaris_sensor)/rom/Right_Finger.rom,$(rospack find polaris_sensor)/rom/Left_Finger.rom" _port:=/dev/ttyUSB0'''
 
 The marker files(.rom) are in the 'rom' folder
 
